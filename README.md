@@ -39,7 +39,7 @@ To deploy LaMini-T5-738M llm in Amazon Sagemaker and create an inference endpoin
        
 ![jupyterlab](jupyterlab.png)
 
-6. Launched the gradio app with a public URL for LaMini-T5-738M text2text-generation task ineference.
+6. Launched the gradio app with a public URL for LaMini-T5-738M text2text-generation task inference.
        
 ![gradio](gradio.png)
 
