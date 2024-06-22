@@ -28,7 +28,23 @@ To deploy LaMini-T5-738M llm in Amazon Sagemaker and create an inference endpoin
 
 ![sagemaker_notebook_instance](sagemaker_notebook_instance.png)
 
-3. Installed the required libraies and deployed the deployed the model to SageMaker Inference with instance_type="ml.g4dn.xlarge". 
+3. Installed the required libraies and deployed the model with instance_type="ml.g4dn.xlarge" using Hugging Face Deep Learning Container. 
 
-![LaMini-T5-738M](LaMini-T5-738M.ipynb)
+[LaMini-T5-738M](LaMini-T5-738M.ipynb)
+
+4. Noted the Endpoint created under the inference section in Amazon sagemaker.
+       
+![endpoint](endpoint.png)
+
+5. Tuned the model with hyperparameter payload and integrated the sagemaker endpoint with a gradio app.
+       
+![jupyterlab](jupyterlan.png)
+
+6. Launched the gradio app with a public URL for LaMini-T5-738M text2text-generation task ineference.
+       
+![gradio](gradio.png)
+
+
+
+
 
