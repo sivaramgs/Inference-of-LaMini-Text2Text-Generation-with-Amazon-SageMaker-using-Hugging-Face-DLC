@@ -9,5 +9,13 @@ To deploy LaMini-T5-738M llm in Amazon Sagemaker and create an inference endpoin
 5. Pytorch
 6. Gradio
 
+### Prerequisites:
+1. **Install the below libraries using pip:**
+   ```!pip install transformers einops accelerate bitsandbytes
+   !pip install langchain langchain-community gradio
+   !pip uninstall -y sagemaker
+   !pip install sagemaker 
+   ```   
+
 
 
