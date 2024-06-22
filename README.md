@@ -18,6 +18,7 @@ To deploy LaMini-T5-738M llm in Amazon Sagemaker and create an inference endpoin
    !pip install sagemaker 
    ```
 ### Project Architecture:
+![architecture](architecture.png)
 
 ### Work Done:
 1. Created a domain in Amazon Sagemaker for managing and organizing the machine learning workloads.
