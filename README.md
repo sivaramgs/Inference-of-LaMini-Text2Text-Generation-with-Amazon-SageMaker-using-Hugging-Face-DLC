@@ -36,7 +36,7 @@ To deploy LaMini-T5-738M llm in Amazon Sagemaker and create an inference endpoin
 
 5. Tuned the model with hyperparameter payload and integrated the sagemaker endpoint with a gradio app.
        
-![jupyterlab](jupyterlan.png)
+![jupyterlab](jupyterlab.png)
 
 6. Launched the gradio app with a public URL for LaMini-T5-738M text2text-generation task ineference.
        
