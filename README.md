@@ -28,9 +28,7 @@ To deploy LaMini-T5-738M llm in Amazon Sagemaker and create an inference endpoin
 
 ![sagemaker_notebook_instance](sagemaker_notebook_instance.png)
 
-3. Installed the required libraies and deployed the model with instance_type="ml.g4dn.xlarge" using Hugging Face Deep Learning Container. 
-
-[LaMini-T5-738M](LaMini-T5-738M.ipynb)
+3. Installed the required libraies and deployed the model with instance_type="ml.g4dn.xlarge" using Hugging Face Deep Learning Container. Refer the sagemaker jupyter notebook [LaMini-T5-738M](LaMini-T5-738M.ipynb)
 
 4. Noted the Endpoint created under the inference section in Amazon sagemaker.
        
